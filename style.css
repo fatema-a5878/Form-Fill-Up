@@ -7,3 +7,6 @@ form > label > input {
 #dob{
     padding-right: 45px;
 }
+fieldset > label{
+    display: block;
+}
