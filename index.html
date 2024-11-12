@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form - Please fill up</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -12,6 +13,36 @@
     <main>
         <section>
             <h2>Please fill up the Form below</h2>
+            <form>
+                <label for="name">Your Name :
+                    <input type="text" placeholder="Your Name" id="name">
+                </label>
+                <label for="email">Your Email :
+                    <input type="email" name="" id="email" placeholder="Your Email">
+                </label>
+                <label for="dob">Date Of Birth :
+                    <input type="date" name="" id="dob" >
+                </label>
+                <label for="nt">Nationality :
+                    <input type="text" name="" id="nt" >
+                </label>
+                <label for="rg">Religion :
+                    <input type="radio" name="religion" id="islam">Islam
+                    <input type="radio" name="religion" id="hindus">Hindus
+                    <input type="radio" name="religion" id="buddha">Buddha
+                    <!-- <select name="Select One" id="">
+                        <option value="religion">Islam</option>
+                        <option value="religion">Hindu</option>
+                        <option value="religion">Buddha</option>
+                    </select> -->
+                </label>
+                <label for="ms">Marital Status :
+                    <input type="radio" name="ms" id="mr">Married
+                    <input type="radio" name="ms" id="umr">Unmarried
+                    <input type="radio" name="ms" id="dvc">Divorce
+                </label>
+                
+            </form>
         </section>
     </main>
     <footer>

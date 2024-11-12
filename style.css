@@ -1,0 +1,9 @@
+form > label {
+    display: block;
+}
+form > label > input {
+    margin-bottom: 10px;
+}
+#dob{
+    padding-right: 45px;
+}
